@@ -3,7 +3,7 @@ public class Test01 {
     public static void main(String[] args) {
         //多态
         Person p = new Son();
-        p.setName("科比");
+        p.setName("科比-曼巴");
         String name = p.getName();
         System.out.println(name);
 
